@@ -10,3 +10,5 @@
 
 9.- grep -F 201 Alumnos.txt
 
+10.- awk '{ print $1 " " $2}' Alumnos.txt | uniq | grep -F J
+
