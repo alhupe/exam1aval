@@ -5,3 +5,6 @@
 6.- tail -n +2 Alumnos.txt | awk '{print $1 " " $2 "-" $5}'
 
 7.- awk '{ print $1 " " $2}' Alumnos.txt | uniq | grep -c González
+
+8.- sed 's/Vicente/Pepe/g' Alumnos.txt
+
