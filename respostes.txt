@@ -1,2 +1,4 @@
 3- grep -n SI Alumnos.txt >> si.txt
 
+5- mv si.txt si
+
