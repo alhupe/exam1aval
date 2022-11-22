@@ -12,3 +12,4 @@
 
 10.- awk '{ print $1 " " $2}' Alumnos.txt | uniq | grep -F J
 
+11.- du -hs * | sort -rh
